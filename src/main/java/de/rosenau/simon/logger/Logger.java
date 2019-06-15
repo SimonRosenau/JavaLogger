@@ -15,7 +15,7 @@ import java.util.Locale;
 public class Logger extends PrintStream {
 
     public static void initialize() {
-        System.setOut(new Logger(System.out, new SimpleDateFormat("dd.MM.yyyy - HH:mm")));
+        System.setOut(new Logger(System.out, new SimpleDateFormat("dd.MM.yyyy - HH:mm:ss")));
     }
 
     // ==========================================================================================
