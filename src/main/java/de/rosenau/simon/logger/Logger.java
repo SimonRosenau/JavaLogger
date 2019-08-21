@@ -33,7 +33,7 @@ public class Logger extends PrintStream {
     }
 
     private String formatPrefix(StackTraceElement element) {
-        return "[" + format.format(new Date()) + "] [" + Thread.currentThread().getName() + "] " + element.getClassName() + "." + element.getMethodName() + "() - " + element.getFileName() + ":" + element.getLineNumber() + ": ";
+        return "[" + format.format(new Date()) + "] [" + Thread.currentThread().getName() + "] " + element.getFileName() + ":" + element.getLineNumber() + ": ";
     }
 
     @Override
