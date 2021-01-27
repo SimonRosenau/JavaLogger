@@ -20,7 +20,7 @@ public class Logger extends PrintStream {
 
     // ==========================================================================================
 
-    private SimpleDateFormat format;
+    private final SimpleDateFormat format;
 
     public Logger(PrintStream stream, SimpleDateFormat format) {
         super(stream);

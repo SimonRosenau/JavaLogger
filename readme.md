@@ -1,5 +1,22 @@
 ## Simple Java Logger
 
+Install via maven:
+
+```
+<repository>
+  <id>github</id>
+  <name>GitHub Packages</name>
+  <url>https://maven.pkg.github.com/SimonRosenau/java-logger</url>
+</repository>
+```
+```
+<dependency>
+  <groupId>de.rosenau.simon</groupId>
+  <artifactId>logger</artifactId>
+  <version>2.0.0</version>
+</dependency>
+```
+
 Initialize the logger with:
 
 ```
